@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MUBARAK</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- Theme Toggle Checkbox (Hidden) -->
+<input type="checkbox" id="theme-toggle" hidden>
+
+<div class="app">
+    <!-- ===== NAVBAR ===== -->
+    <header class="navbar">
+        <div class="nav-container">
+            <div class="brand">
+                <h1>MUBARAK</h1>
+            </div>
+
+            <div class="nav-right">
+                <!-- Navigation Menu Checkbox (Hidden) -->
+                <input type="checkbox" id="menu-toggle" hidden>
+                
+                <nav>
+                    <ul class="nav-links">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#education">Education</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </nav>
+
+                <label for="theme-toggle" class="theme-btn" aria-label="Toggle theme">
+                    <i class="fas fa-moon moon-icon"></i>
+                    <i class="fas fa-sun sun-icon"></i>
+                </label>
+
+                <label for="menu-toggle" class="menu-btn">
+                    <i class="fas fa-bars"></i>
+                </label>
+            </div>
+        </div>
+    </header>
+
+    <!-- ===== HOME ===== -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h3 class="greeting">Hi, I'm</h3>
+                <h1 class="name">Mohamed Mubarak</h1>
+                <h2 class="title">Software Engineer Backend | ASP.NET</h2>
+                <p>Passionate about building scalable back-end solutions using ASP.NET Core and clean architecture principles.</p>
+                <a href="cv.pdf" download class="cv-btn">
+                    <i class="fas fa-download"></i> Download My CV
+                </a>
+            </div>
+            <div class="hero-image">
+                <img src="profile.png" alt="Mohamed Mubarak - Full Stack .NET Engineer">
+            </div>
+        </div>  
+    </section>
+
+    <div class="section-divider"></div>
+
+<!-- ===== ABOUT ===== -->
+<section id="about" class="section">
+    <div class="section-header">
+        <h2>About Me</h2>
+        <p>My journey</p>
+    </div>
+    <div class="about-content">
+        <p class="about-intro">
+            I discovered early on that <strong>coding is something I naturally lose myself in</strong>—when I write code, time fades away, and I genuinely enjoy the process of building and fixing things. During my final year at university, working on my graduation project—a web-based application—made that feeling clearer and confirmed that <span class="highlight">software development is the path I want to pursue.</span>
+        </p>
+        
+        <p class="about-journey">
+            After graduating, I worked in <strong>Technical Support for two years.</strong> While it wasn't a technical role, programming never really left my mind. During that time, I continued learning, strengthening my fundamentals, and developing myself step by step, knowing I would return to this field with a clearer mindset and stronger focus.
+        </p>
+        
+        <p class="about-current">
+            Today, I work as a <span class="highlight">Backend Developer specialized in ASP.NET</span>, with a passion for building <strong>robust and scalable systems.</strong> I design clean, maintainable APIs with a strong focus on business rules, performance optimization, and scalability. My approach combines solid architectural principles with practical solutions that solve real-world problems efficiently.
+        </p>
+        
+        <p class="about-goal">
+            My goal is to <strong>grow steadily and become a reliable software engineer</strong> who builds <span class="highlight">systems that truly last.</span>
+        </p>
+    </div>
+</section>
+
+    <div class="section-divider"></div>
+
+ <!-- ===== EDUCATION ===== -->
+<section id="education" class="section">
+    <div class="section-header">
+        <h2>Education</h2>
+        <p>My academic background and future goals</p>
+    </div>
+    
+    <div class="education-container">
+        <div class="education-card">
+            <div class="education-icon">
+                <i class="fas fa-graduation-cap"></i>
+            </div>
+            <h3>Bachelor's Degree in Management Information Systems (MIS)</h3>
+            <h4>Business Information Systems Track</h4>
+            <div class="education-meta">
+                <span class="university"><i class="fas fa-university"></i> Giza Academy</span>
+                <span class="year"><i class="fas fa-calendar-alt"></i> Class of 2023</span>
+            </div>
+            <p>
+                My academic background combined <strong>software development fundamentals</strong> with <span class="highlight">business and management concepts.</span>
+                I studied programming, databases, systems analysis, and business processes, which helped me understand
+                how software systems support real-world organizational needs.
+            </p>
+        </div>
+
+        <div class="education-card future-goal">
+            <div class="education-icon">
+                <i class="fas fa-lightbulb"></i>
+            </div>
+            <h3>Future Academic Goal</h3>
+            <p>
+                I am currently planning to pursue a <span class="highlight">Master's degree</span> to deepen my knowledge in software systems
+                and strengthen my academic and professional foundation.
+            </p>
+        </div>
+    </div>
+</section>
+
+    <!-- ===== SKILLS ===== -->
+    <section id="skills" class="section">
+        <div class="section-header">
+            <h2>Technical Skills</h2>
+            <p>Technologies and tools I work with</p>
+        </div>
+
+        <div class="skills-grid">
+            <div class="skill-card">
+                <div class="skill-icon">
+                    <i class="fas fa-server"></i>
+                </div>
+                <h3>Backend (.NET)</h3>
+                <p>C#, ASP.NET Core, Web API, Entity Framework Core, LINQ, Clean Architecture, SOLID Principles</p>
+            </div>
+
+            <div class="skill-card">
+                <div class="skill-icon">
+                    <i class="fas fa-code"></i>
+                </div>
+                <h3>Frontend</h3>
+                <p>HTML5, CSS3, JavaScript, Bootstrap, Responsive Design, Modern UI/UX</p>
+            </div>
+
+            <div class="skill-card">
+                <div class="skill-icon">
+                    <i class="fas fa-database"></i>
+                </div>
+                <h3>Database</h3>
+                <p>SQL Server, T-SQL, Data Modeling, Query Optimization, Migrations</p>
+            </div>
+
+            <div class="skill-card">
+                <div class="skill-icon">
+                    <i class="fas fa-shield-alt"></i>
+                </div>
+                <h3>Security</h3>
+                <p>JWT Authentication, OAuth, Role-based Authorization, Security Best Practices</p>
+            </div>
+
+            <div class="skill-card">
+                <div class="skill-icon">
+                    <i class="fas fa-cloud"></i>
+                </div>
+                <h3>Cloud</h3>
+                <p>Azure, Cloud Deployment, API Management, Scalable Solutions</p>
+            </div>
+
+            <div class="skill-card">
+                <div class="skill-icon">
+                    <i class="fas fa-project-diagram"></i>
+                </div>
+                <h3>Architecture</h3>
+                <p>Clean Architecture, Domain Driven Design, Design Patterns, Microservices</p>
+            </div>
+
+            <div class="skill-card">
+                <div class="skill-icon">
+                    <i class="fas fa-tools"></i>
+                </div>
+                <h3>Dev Tools</h3>
+                <p>Git, GitHub, Postman, Visual Studio, Docker, CI/CD Pipelines</p>
+            </div>
+
+            <div class="skill-card">
+                <div class="skill-icon">
+                    <i class="fas fa-robot"></i>
+                </div>
+                <h3>AI & Automation</h3>
+                <p>Claude AI, Gemini, GitHub Copilot, N8N Automation, Workflow Optimization</p>
+            </div>
+        </div>
+    </section>
+
+    <div class="section-divider"></div>
+
+    <!-- ===== PROJECTS ===== -->
+    <section id="projects" class="section">
+        <div class="section-header">
+            <h2>Projects</h2>
+            <p>Featured work and accomplishments</p>
+        </div>
+
+        <div class="projects-grid">
+            <div class="project-card">
+                <h3>E-Commerce API</h3>
+                <p>
+                    Comprehensive e-commerce backend featuring JWT authentication, role management,
+                    order processing, and clean layered architecture following SOLID principles.
+                </p>
+            </div>
+
+            <div class="project-card">
+                <h3>Task Management System</h3>
+                <p>
+                    Enterprise-grade task management platform with role-based access control,
+                    structured business logic, and efficient data handling for team collaboration.
+                </p>
+            </div>
+
+            <div class="project-card">
+                <h3>Inventory Management API</h3>
+                <p>
+                    Real-time inventory tracking system with advanced reporting, stock management,
+                    and integration capabilities optimized for high-volume transactions.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <div class="section-divider"></div>
+
+    <!-- ===== CONTACT ===== -->
+    <section id="contact" class="section contact-section">
+        <div class="section-header">
+            <h2>Get In Touch</h2>
+            <p>Let's discuss how we can work together</p>
+        </div>
+
+        <div class="contact-container">
+            <form class="contact-form" action="mailto:your@email.com" method="post" enctype="text/plain">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="name">Your Name</label>
+                        <input type="text" id="name" name="name" required placeholder="Enter your name">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Your Email</label>
+                        <input type="email" id="email" name="email" required placeholder="Enter your email">
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Your Message</label>
+                    <textarea id="message" name="message" required placeholder="Enter your message"></textarea>
+                </div>
+
+                <button type="submit" class="submit-btn">
+                    <i class="fas fa-paper-plane"></i> Send Message
+                </button>
+            </form>
+
+            <div class="contact-info">
+                <p>OR REACH ME DIRECTLY AT</p>
+                <p><a href="mailto:your@email.com"><i class="fas fa-envelope"></i> mohamed.developer99@gmail.com</a></p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="footer">
+        <div class="footer-container">
+            <p class="footer-name">MUBARAK</p>
+            <p class="footer-title">Software Engineer Backend | ASP.NET</p>
+
+            <div class="social-links">
+                <a href="https://github.com/Moohamed-Mubarak" target="_blank" aria-label="GitHub">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="https://linkedin.com/in/mohamed-mubarak-34a728276" target="_blank" aria-label="LinkedIn">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+                <a href="https://youtube.com/@USERNAME" target="_blank" aria-label="YouTube">
+                    <i class="fab fa-youtube"></i>
+                </a>
+            </div>
+
+            <p class="footer-copy">© 2026 Mubarak. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- ===== SCROLL TO TOP ===== -->
+    <a href="#home" class="scroll-top">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+</div>
+
+</body>
+</html>
